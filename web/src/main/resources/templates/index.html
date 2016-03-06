@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Home</title>
+</head>
+<body>
+
+
+
+Home Page
+<br/>
+<a th:href="@{http://www.thymeleaf.org/documentation.html}">thymeleaf document</a>
+<br/>
+<shiro:principal/>
+
+<p shiro:guest="">Please <a href="login.html">login</a></p>
+</body>
+</html>
